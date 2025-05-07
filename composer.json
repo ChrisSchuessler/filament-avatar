@@ -22,6 +22,12 @@
         {
             "name": "EL OUFIR Hatim",
             "email": "eloufirhatim@gmail.com"
+        },
+        {
+            "name": "Der Schuessi [ Christoph Schüßler @ solisTEC ]",
+            "email": "chris@solistec.de",
+            "homepage": "https://solistec.de",
+            "role": "Contributor"
         }
     ],
     "extra": {
