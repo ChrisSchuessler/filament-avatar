@@ -101,6 +101,20 @@ return [
 
             // User's field used to generate avatar
             'name_field' => 'email'
+
+            // Default Gravatar Types:
+            //  initials: uses the profile name as initials, with a generated background and foreground color (beta). There are additional parameters, described later.
+            //  color: a generated color (beta)
+            //  404: do not load any image if none is associated with the email hash, instead return an HTTP 404 (File Not Found) response
+            //  mp: (mystery-person) a simple, cartoon-style silhouetted outline of a person (does not vary by email hash)
+            //  identicon: a geometric pattern based on an email hash
+            //  monsterid: a generated ‘monster’ with different colors, faces, etc
+            //  wavatar: generated faces with differing features and backgrounds
+            //  retro: awesome generated, 8-bit arcade-style pixelated faces
+            //  robohash: a generated robot with different colors, faces, etc
+            //  blank: a transparent PNG image (border added to HTML below for demonstration purposes)
+            'default_avatar' => false,
+
         ],
     ],
 
